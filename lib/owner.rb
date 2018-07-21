@@ -63,4 +63,11 @@ class Owner
     end
   end
   
+  def sell_pets()
+    @pets.each do |type, array|
+      array.each do |x|
+        x.mood = "nervous"
+      end
+    end
+  end
 end
