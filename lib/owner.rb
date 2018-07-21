@@ -69,6 +69,6 @@ class Owner
         x.mood = "nervous"
       end
     end
-    reset_all()
+    Owner.reset_all()
   end
 end
