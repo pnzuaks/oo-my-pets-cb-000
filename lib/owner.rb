@@ -68,7 +68,7 @@ class Owner
       array.each do |x|
         x.mood = "nervous"
       end
+      array.
     end
-    Owner.reset_all()
   end
 end
